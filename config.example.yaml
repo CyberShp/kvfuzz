@@ -1,0 +1,7 @@
+device_path: /dev/nvme1n1
+nsid: 1
+target_nqn: nqn.2026-06.example:kv
+allowed_model_or_serial: [TEST_ARRAY_MODEL_OR_SERIAL]
+key_prefix: kvfuzz-test-
+max_qps: 10
+timeout_ms: 1000

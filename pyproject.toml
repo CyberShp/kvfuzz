@@ -1,0 +1,12 @@
+[project]
+name = "nvme-kv-fuzz"
+version = "0.1.0"
+description = "Locateable NVMe KV over NOF fuzz harness with reports and replay artifacts"
+requires-python = ">=3.10"
+
+[project.scripts]
+nvme-kv-fuzz = "nvme_kv_fuzz.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

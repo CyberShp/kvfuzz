@@ -1,0 +1,1 @@
+# No runtime dependency is required. pytest is only needed for development tests.
